@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ejercicio2.MainActivity2">
+
+    <EditText
+        android:id="@+id/editTextUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="126dp"
+        android:gravity="center"
+        android:hint="Ingrese la dirección web" />
+
+    <Button
+        android:id="@+id/btnOpenInBrowser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUrl"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:gravity="center|center_horizontal"
+        android:text="Abrir en Navegador" />
+
+    <Button
+        android:id="@+id/btnOpenInWebView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnOpenInBrowser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="Abrir en WebView" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/Ejercicio2"
+        app:title="@string/Ejercicio2"
+        android:text="@string/Ejercicio2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/design_default_color_error"
+        android:elevation="4dp"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+
+        tools:ignore="MissingConstraints" />
+</RelativeLayout>

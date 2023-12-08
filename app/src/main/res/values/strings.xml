@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HLC_Tarea2</string>
+    <string name="Ejercicio1">PabloLealRamos_HLC_Tarea2_Ej1
+    </string>
+    <string name="Ejercicio2">PabloLealRamos_HLC_Tarea2_Ej2
+    </string>
+    <string name="Ejercicio3">PabloLealRamos_HLC_Tarea2_Ej3
+    </string>
+    <string name="title_activity_main3">MainActivity3</string>
+
+       <!-- <string name="app_name">Contador</string-->>
+        <string name="cafes">Cafés</string>
+        <string name="cero">0</string>
+        <string name="menos">-</string>
+        <string name="cinco">5:00</string>
+        <string name="mas">+</string>
+        <string name="comenzar">Comenzar</string>
+        <string name="Poner_Cafes_a_Cero">Poner Cafes a Cero</string>
+
+</resources>
